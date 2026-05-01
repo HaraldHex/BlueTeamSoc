@@ -1,1 +1,6 @@
+=== SOC THREAT REPORT ===
 
+🟢 8.8.8.8 -> SAFE (1 events)
+🔴 185.220.101.1 -> MALICIOUS (1 events)
+🔴 45.33.32.156 -> MALICIOUS (1 events)
+🟡 1.2.3.4 -> SUSPICIOUS (1 events)
