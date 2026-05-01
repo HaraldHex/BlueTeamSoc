@@ -1,1 +1,31 @@
+SOC Threat Intelligence Enrichment Tool
 
+This is a Python-based simulation tool designed to mimic core workflows used in a Security Operations Center (SOC). The program analyzes log files, extracts IP addresses, and enriches them with simulated threat intelligence data to classify potential security risks.
+
+# What the program does
+Reads and processes raw log files line by line
+Extracts IP addresses using regular expressions
+Counts occurrences of each IP address
+Matches IPs against a predefined threat intelligence database
+Classifies each IP as:
+Safe
+Suspicious
+Malicious
+Unknown (if not found in the database)
+Generates a structured security report in the terminal
+# Purpose
+
+The project is designed for educational purposes to demonstrate how SOC analysts:
+
+Parse and analyze log data
+Enrich raw security events with threat intelligence
+Identify potentially malicious network activity
+Prioritize security incidents based on risk level
+⚙️ Technologies used
+Python 3
+Regular Expressions (regex)
+Dictionaries for threat intelligence mapping
+Basic data analysis logic
+# Note
+
+This tool does not connect to real threat intelligence services. It uses a simulated local dataset to demonstrate SOC-style analysis workflows.
